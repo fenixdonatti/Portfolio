@@ -3,8 +3,7 @@
         <div class="flex flex-col items-center mb-12">
             <h1 class="text-5xl font-bold text-center md:text-6xl">contato</h1>
             <p class="mt-4 text-xl md:text-2xl text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consectetur
-                aut cum iusto tenetur reiciendis eligendi.
+                Vamos conversar sobre tecnologia, projetos e novas oportunidades de colaboração.
             </p>
         </div>
         <div class="grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
@@ -12,7 +11,7 @@
                 <UCard class="h-full flex flex-col items-center p-6 text-center rounded-lg">
                     <h2 class="text-2xl font-semibold mb-3">Email</h2>
                     <p class="text-lg mb-2">fenixdonatti@gmail.com</p>
-                    <p class="text-sm flex-1">Lorem ipsum dolor sit amet</p>
+                    <p class="text-sm flex-1">Entre em contato por e-mail para falar sobre um projeto ou oportunidade.</p>
                 </UCard>
             </NuxtLink>
 
@@ -20,7 +19,7 @@
                 <UCard class="h-full flex flex-col items-center p-6 text-center rounded-lg">
                     <h2 class="text-2xl font-semibold mb-3">LinkedIn</h2>
                     <p class="text-lg mb-2">Fênix Rodrigues Pedro</p>
-                    <p class="text-sm flex-1">Lorem ipsum dolor sit amet</p>
+                    <p class="text-sm flex-1">Acompanhe minha trajetória profissional e conecte-se comigo.</p>
                 </UCard>
             </NuxtLink>
         </div>

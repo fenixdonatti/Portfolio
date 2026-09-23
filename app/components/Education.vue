@@ -1,10 +1,8 @@
 <template>
     <div>
         <div class="flex flex-col items-center mb-10">
-            <h1 class="text-6xl font-bold">escolaridade</h1>
-            <p class="text-3xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consectetur
-                aut cum iusto tenetur
-                reiciendis eligendi.</p>
+            <h1 class="text-6xl font-bold mb-5">escolaridade</h1>
+            <p class="text-3xl text-center">Minha formação reúne fundamentos de software, prática em tecnologia e uma busca constante por novos conhecimentos.</p>
         </div>
         <div class="flex gap-10 flex-col">
             <div class="flex flex-col items-center gap-4 lg:flex-row lg:justify-between">
