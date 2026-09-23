@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       mixpanelToken: process.env.NUXT_PUBLIC_MIXPANEL_TOKEN || '',
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
     },
   },
   app: {

@@ -93,4 +93,14 @@ track('Project Clicked', {
 
 Para usuários autenticados, use `identify(id, properties)` depois do login. O token não deve ser colocado diretamente em componentes ou commitado no repositório.
 
+## SEO
+
+Configure o domínio público no arquivo `.env` para gerar URLs absolutas:
+
+```bash
+NUXT_PUBLIC_SITE_URL=https://seu-dominio.com
+```
+
+O sitemap e o arquivo de rastreamento ficam disponíveis em `/sitemap.xml` e `/robots.txt`.
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
