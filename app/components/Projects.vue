@@ -1,12 +1,12 @@
 <template>
     <div>
         <div class="flex flex-col items-center mb-10">
-            <h1 class="text-6xl font-bold">Projetos</h1>
+            <h1 class="text-6xl font-bold">projetos</h1>
             <p class="text-3xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consectetur
                 aut cum iusto tenetur
                 reiciendis eligendi.</p>
         </div>
-        <div class="flex justify-around">
+        <div class="flex justify-around flex-col gap-4 items-center lg:items-start lg:flex-row">
             <NuxtLink to="https://lomed.com.br/" target="_blank" rel="noopener noreferrer">
                 <UCard class="max-w-md">
                     <NuxtImg src="/images/lomed.png" alt="Projeto Lomed" class="mb-5" />
