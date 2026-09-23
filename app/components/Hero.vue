@@ -18,7 +18,7 @@
       <div class="relative mx-auto w-full max-w-sm lg:mb-2">
         <div class="absolute -right-3 -top-3 h-24 w-24 border-r border-t border-[#ee7d62]"></div>
         <div class="relative overflow-hidden bg-[#121416] p-3">
-          <NuxtImg src="/images/abstract.png" alt="Imagem abstrata" class="h-72 w-full object-cover opacity-90" />
+          <NuxtImg src="/images/abstract.jpg" alt="Imagem abstrata" class="h-72 w-full object-cover opacity-90" />
           <div class="flex items-center justify-between px-2 py-4 text-xs uppercase tracking-[0.12em] text-[#c7f36b]">
             <span>Disponível para oportunidades</span>
             <span class="h-2 w-2 rounded-full bg-[#c7f36b]"></span>

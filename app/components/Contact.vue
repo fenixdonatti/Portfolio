@@ -7,14 +7,14 @@
                 <p class="section-intro">Estou aberto a conversar sobre tecnologia, projetos e novas oportunidades de colaboração.</p>
             </div>
             <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-                <NuxtLink to="mailto:fenixdonatti@gmail.com" class="contact-card group block p-6">
+                <NuxtLink to="mailto:fenixdonatti@gmail.com" class="contact-card group block p-6" @click="trackContact('email')">
                     <p class="section-kicker">Email</p>
                     <div class="mt-5 flex items-center justify-between gap-4">
                         <span class="break-all text-lg font-semibold">fenixdonatti@gmail.com</span>
                         <span class="text-2xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
                     </div>
                 </NuxtLink>
-                <NuxtLink to="https://www.linkedin.com/in/fenixrodrigues/" target="_blank" rel="noopener noreferrer" class="contact-card group block p-6">
+                <NuxtLink to="https://www.linkedin.com/in/fenixrodrigues/" target="_blank" rel="noopener noreferrer" class="contact-card group block p-6" @click="trackContact('linkedin')">
                     <p class="section-kicker">LinkedIn</p>
                     <div class="mt-5 flex items-center justify-between gap-4">
                         <span class="text-lg font-semibold">Fênix Rodrigues Pedro</span>
@@ -25,3 +25,13 @@
         </div>
     </section>
 </template>
+
+<script lang="ts" setup>
+import { useAnalytics } from '../composables/useAnalytics';
+
+const { track } = useAnalytics()
+
+const trackContact = (contact: string) => {
+    track('Contact Link Clicked', { contact })
+}
+</script>

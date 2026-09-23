@@ -72,4 +72,25 @@ yarn preview
 bun run preview
 ```
 
+## Mixpanel
+
+1. Crie um projeto no Mixpanel e copie o `Project Token`.
+2. Crie um arquivo `.env` na raiz a partir de `.env.example`:
+
+```bash
+NUXT_PUBLIC_MIXPANEL_TOKEN=seu-project-token
+```
+
+O plugin registra automaticamente o evento `Page Viewed` nas navegações. Para registrar ações específicas em componentes:
+
+```ts
+const { track } = useAnalytics()
+
+track('Project Clicked', {
+	project: 'Lomed',
+})
+```
+
+Para usuários autenticados, use `identify(id, properties)` depois do login. O token não deve ser colocado diretamente em componentes ou commitado no repositório.
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
