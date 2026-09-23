@@ -7,10 +7,13 @@
                 reiciendis eligendi.</p>
         </div>
         <div class="flex justify-around flex-col">
-            <UCard class="">
-                <h2 class="text-3xl">Lomed</h2>
-                <p class="text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                <p>06/2026 - Atualmente</p>
+            <UCard class="flex">
+                <NuxtImg src="/images/lomedLogo.jpg" />
+                <div>
+                    <h2 class="text-3xl">Lomed</h2>
+                    <p class="text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <p>06/2026 - Atualmente</p>
+                </div>
             </UCard>
         </div>
     </div>

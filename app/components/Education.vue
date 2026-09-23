@@ -6,7 +6,7 @@
                 aut cum iusto tenetur
                 reiciendis eligendi.</p>
         </div>
-        <div class="flex gap-4 flex-col">
+        <div class="flex gap-10 flex-col">
             <div class="flex flex-col items-center gap-4 lg:flex-row lg:justify-between">
                 <div>
                     <h2 class="text-4xl font-bold">PUCRS</h2>
@@ -14,7 +14,7 @@
                     <p class="text-xl">06/2025 - presente</p>
                 </div>
 
-                <NuxtImg src="/images/pucrs.png" class="w-sm h-48 lg:w-lg lg:h-80 rounded-4xl object-cover" />
+                <NuxtImg src="/images/pucrs.png" class="w-md h-58 lg:w-lg lg:h-80 rounded-4xl object-cover" />
             </div>
 
             <div class="flex flex-col items-center gap-4 lg:flex-row lg:justify-between">
@@ -24,7 +24,7 @@
                     <p class="text-xl">2021 - 2023</p>
                 </div>
 
-                <NuxtImg src="/images/senac.png" class="w-sm h-48 lg:w-lg lg:h-80 rounded-4xl object-cover" />
+                <NuxtImg src="/images/senac.png" class="w-md h-58 lg:w-lg lg:h-80 rounded-4xl object-cover" />
             </div>
         </div>
     </div>
