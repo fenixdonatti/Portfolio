@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div id="projetos">
         <div class="flex flex-col items-center mb-10">
-            <h1 class="text-6xl font-bold mb-5">projetos</h1>
+            <h1 class="text-6xl font-bold mb-5">Projetos</h1>
             <p class="text-3xl text-center">Conheça alguns dos projetos em que transformei ideias em experiências digitais funcionais e acessíveis.</p>
         </div>
         <div class="flex justify-around flex-col gap-4 items-center lg:items-start lg:flex-row">

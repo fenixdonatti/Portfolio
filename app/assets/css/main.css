@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+html {
+	scroll-behavior: smooth;
+}
+
+[id] {
+	scroll-margin-top: 1.5rem;
+}

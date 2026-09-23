@@ -1,7 +1,7 @@
 <template>
-    <div class="px-4 sm:px-6 lg:px-8 py-12">
+    <div id="contato" class="px-4 sm:px-6 lg:px-8 py-12">
         <div class="flex flex-col items-center mb-12">
-            <h1 class="text-5xl font-bold text-center md:text-6xl">contato</h1>
+            <h1 class="text-5xl font-bold text-center md:text-6xl">Contato</h1>
             <p class="mt-4 text-xl md:text-2xl text-center">
                 Vamos conversar sobre tecnologia, projetos e novas oportunidades de colaboração.
             </p>

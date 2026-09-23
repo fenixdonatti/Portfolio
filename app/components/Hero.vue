@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between gap-4 flex-col items-center text-center lg:flex-row lg:text-start lg:items-start">
+    <div id="sobre" class="flex justify-between gap-4 flex-col items-center text-center lg:flex-row lg:text-start lg:items-start">
       <div>
         <h1 class="font-bold text-6xl mb-12">Fênix Rodrigues Pedro</h1>
         <p class="text-3xl">Sou estudante de Engenharia de Software e desenvolvedor apaixonado por criar soluções digitais úteis, intuitivas e bem construídas.</p>
