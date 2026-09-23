@@ -1,33 +1,27 @@
 <template>
-    <div id="contato" class="px-4 sm:px-6 lg:px-8 py-12">
-        <div class="flex flex-col items-center mb-12">
-            <h1 class="text-5xl font-bold text-center md:text-6xl">Contato</h1>
-            <p class="mt-4 text-xl md:text-2xl text-center">
-                Vamos conversar sobre tecnologia, projetos e novas oportunidades de colaboração.
-            </p>
+    <section id="contato" class="section-block border-t border-[#d9dbd5]">
+        <div class="grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:items-end">
+            <div>
+                <p class="section-kicker">05 / Contato</p>
+                <h2 class="section-title mt-5">Tem uma ideia?<br /><span class="text-[#ee7d62]">Vamos construir.</span></h2>
+                <p class="section-intro">Estou aberto a conversar sobre tecnologia, projetos e novas oportunidades de colaboração.</p>
+            </div>
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+                <NuxtLink to="mailto:fenixdonatti@gmail.com" class="contact-card group block p-6">
+                    <p class="section-kicker">Email</p>
+                    <div class="mt-5 flex items-center justify-between gap-4">
+                        <span class="break-all text-lg font-semibold">fenixdonatti@gmail.com</span>
+                        <span class="text-2xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
+                    </div>
+                </NuxtLink>
+                <NuxtLink to="https://www.linkedin.com/in/fenixrodrigues/" target="_blank" rel="noopener noreferrer" class="contact-card group block p-6">
+                    <p class="section-kicker">LinkedIn</p>
+                    <div class="mt-5 flex items-center justify-between gap-4">
+                        <span class="text-lg font-semibold">Fênix Rodrigues Pedro</span>
+                        <span class="text-2xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
+                    </div>
+                </NuxtLink>
+            </div>
         </div>
-        <div class="grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
-            <NuxtLink to="#" target="_blank" rel="noopener noreferrer" class="block">
-                <UCard class="h-full flex flex-col items-center p-6 text-center rounded-lg">
-                    <h2 class="text-2xl font-semibold mb-3">Email</h2>
-                    <p class="text-lg mb-2">fenixdonatti@gmail.com</p>
-                    <p class="text-sm flex-1">Entre em contato por e-mail para falar sobre um projeto ou oportunidade.</p>
-                </UCard>
-            </NuxtLink>
-
-            <NuxtLink to="https://www.linkedin.com/in/fenixrodrigues/" target="_blank" rel="noopener noreferrer" class="block">
-                <UCard class="h-full flex flex-col items-center p-6 text-center rounded-lg">
-                    <h2 class="text-2xl font-semibold mb-3">LinkedIn</h2>
-                    <p class="text-lg mb-2">Fênix Rodrigues Pedro</p>
-                    <p class="text-sm flex-1">Acompanhe minha trajetória profissional e conecte-se comigo.</p>
-                </UCard>
-            </NuxtLink>
-        </div>
-    </div>
+    </section>
 </template>
-
-<script lang="ts" setup>
-</script>
-
-<style>
-</style>
