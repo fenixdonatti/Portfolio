@@ -7,7 +7,16 @@
         </div>
         <div class="mt-14 grid gap-7 lg:grid-cols-2">
             <NuxtLink to="https://lomed.com.br/" target="_blank" rel="noopener noreferrer" class="project-card group block p-3" @click="trackProject('Lomed')">
-                <NuxtImg src="/images/lomed.png" alt="Projeto Lomed" class="h-64 w-full object-cover grayscale transition duration-300 group-hover:grayscale-0" />
+                <NuxtImg
+                    src="/images/lomed.webp"
+                    alt="Projeto Lomed"
+                    width="1400"
+                    height="900"
+                    sizes="(max-width: 768px) 100vw, 560px"
+                    format="webp"
+                    quality="92"
+                    class="h-64 w-full object-cover grayscale transition duration-300 group-hover:grayscale-0"
+                />
                 <div class="p-5">
                     <div class="flex items-start justify-between gap-5">
                         <div>
@@ -22,7 +31,16 @@
             </NuxtLink>
 
             <NuxtLink to="https://kardape.com.br/" target="_blank" rel="noopener noreferrer" class="project-card group block p-3" @click="trackProject('Kardape')">
-                <NuxtImg src="/images/kardape.png" alt="Projeto Kardape" class="h-64 w-full object-cover grayscale transition duration-300 group-hover:grayscale-0" />
+                <NuxtImg
+                    src="/images/kardape.webp"
+                    alt="Projeto Kardape"
+                    width="1400"
+                    height="900"
+                    sizes="(max-width: 768px) 100vw, 560px"
+                    format="webp"
+                    quality="92"
+                    class="h-64 w-full object-cover grayscale transition duration-300 group-hover:grayscale-0"
+                />
                 <div class="p-5">
                     <div class="flex items-start justify-between gap-5">
                         <div>

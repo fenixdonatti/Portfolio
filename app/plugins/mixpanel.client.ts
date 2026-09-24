@@ -1,6 +1,4 @@
-import mixpanel from 'mixpanel-browser'
-
-export default defineNuxtPlugin((nuxtApp) => {
+export default defineNuxtPlugin(async (nuxtApp) => {
   const config = useRuntimeConfig()
   const token = config.public.mixpanelToken
 
@@ -11,6 +9,8 @@ export default defineNuxtPlugin((nuxtApp) => {
       },
     }
   }
+
+  const { default: mixpanel } = await import('mixpanel-browser')
 
   mixpanel.init(token, {
     track_pageview: false,

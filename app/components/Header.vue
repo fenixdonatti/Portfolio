@@ -7,14 +7,15 @@
         <div class="flex items-center gap-5">
             <span class="hidden text-xs font-bold uppercase tracking-[0.16em] text-[#6d716f] sm:inline">Portfólio · 2026</span>
             <div class="flex justify-end md:hidden">
-                <UButton
-                    :icon="isMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'"
-                    color="neutral"
-                    variant="ghost"
+                <button
+                    type="button"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-[#d9dbd5] bg-white/60 text-lg text-[#121416] transition-colors hover:border-[#121416]"
                     :aria-label="isMenuOpen ? 'Fechar menu de navegação' : 'Abrir menu de navegação'"
                     :aria-expanded="isMenuOpen"
                     @click="isMenuOpen = !isMenuOpen"
-                />
+                >
+                    {{ isMenuOpen ? '✕' : '☰' }}
+                </button>
             </div>
 
             <nav :class="[isMenuOpen ? 'absolute left-0 top-full flex w-full border-b border-[#d9dbd5] bg-[#f3f1eb] p-5' : 'hidden', 'flex-col gap-5 md:static md:flex md:w-auto md:flex-row md:items-center md:gap-7 md:border-0 md:bg-transparent md:p-0']">

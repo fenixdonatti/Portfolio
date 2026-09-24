@@ -2,8 +2,30 @@ import tailwindcss from "@tailwindcss/vite"
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@nuxt/image'],
+  devtools: { enabled: false },
+  modules: ['@nuxt/image'],
+  nitro: {
+    compressPublicAssets: true,
+  },
+  image: {
+    format: ['webp', 'avif', 'png', 'jpg', 'jpeg'],
+    quality: 80,
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+    },
+  },
+  routeRules: {
+    '/images/**': {
+      headers: {
+        'cache-control': 'public, max-age=31536000, immutable',
+      },
+    },
+  },
   runtimeConfig: {
     public: {
       mixpanelToken: process.env.NUXT_PUBLIC_MIXPANEL_TOKEN || '',
